@@ -1,0 +1,422 @@
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: relative;
+
+
+}
+
+body{
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Playfair Display', serif;
+}
+.contenedor{
+    width:100%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 50px;
+    
+    
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    position: relative;
+    display: inline;
+    padding: 0%;
+    margin: 0%;
+}
+    
+    
+header{
+    background-color: rgba(213, 213, 213, 0.548);
+   padding: 30px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 10rme;
+    
+}
+p{
+    padding: 0px, 80px, 0px, 80px;
+
+}
+
+/*Index*/
+
+
+.titulo-1{
+    text-align: center;
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.banner{
+    padding: 90px 0px 90px 0px;
+    background-color: rgba(213, 213, 213, 0.548);
+}
+
+.segundotexto{
+    text-align: center;
+    font-size: 30px;
+    font-weight:400;
+}
+
+.sobre-nosotros{
+    display: flex;
+    padding: 0px, 0px, 90px, 0px;
+}
+
+
+.titulos{
+    padding: 10px;
+    font-size: 4rem;
+    text-align: center;
+}
+.descripcion1{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 50%;
+    box-sizing: border-box;
+    min-width: 250px;
+    
+}
+
+.imagen1{
+    width: 50%;
+
+}
+
+
+.seccion-imagenes{
+    position:inherit;
+    width: 50%;    
+}
+
+
+
+.comentario{
+    padding: 90px 90px 90px 90px;
+    margin: 90px;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.fondo-comentario{
+    background-color: rgba(213, 213, 213, 0.548);
+
+}
+
+.descripcion2{
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+
+.algunos-servicios{
+    display: flex;
+}
+.imagendibujo{
+    border-radius: 7%;
+    width: 500px;
+    height: 333px;
+
+}
+
+.container-flex{
+    border: 1px rgb(179, 179, 179);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    
+
+
+}
+
+.caja{
+     border: 1px solid rgb(162, 162, 162);
+     background-color: aliceblue;
+     color: black;
+     width: 400px;
+     height: 400px;
+     line-height: 400px;
+     text-align:center;
+     margin: 5px;
+     font-size: 1.5rem;
+     font-weight: bold ;
+
+}
+
+.c1{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/imagen\ 2.jpg) ;
+    color: black;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+}
+
+
+.c2{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/chica\ 1\ .jpg) ; 
+    color: black;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+}
+.c3{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/imagen\ 3.jpg) ;
+    color: black;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+}
+
+footer{
+    margin: 10px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    color: azure;
+    padding: 30px;
+}
+
+
+.flxbox{
+    background-color: rgba(213, 213, 213, 0.548);
+}
+ 
+/*contacto*/
+
+.bannercontacto{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+
+}
+
+/*servicios*/
+
+.bannerservicios{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+}
+
+.primeraseccion{
+
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: contents;
+}
+
+
+/*portafolio*/
+
+.bannerportafolio{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap ;
+}
+
+.img-portafolio{
+    width: 25%;
+}
+
+
+/*nosotros*/
+
+.bannernosotros{
+    background-image:url(../img/pexels-daan-stevens-939331.jpg);
+    padding: 90px;
+
+}
+
+.sobre-nosotros{
+    padding-top: 20px;
+    display: flex; 
+    margin: 120px;
+}
+
+.imagen-servicios{
+    border-radius: 7%;
+    width: 50%;
+    height: 50%;
+    
+}
+
+/* responsive */
+
+/* header */
+
+@media screen and (max-width:800px){
+
+    .titulo-1{
+        text-align: center;
+        font-size: 9vw;
+        font-weight: bold;
+    }
+    .segundotexto{
+        text-align: center;
+        font-size: 5vw;
+        font-weight:400;
+    }
+    
+}
+
+/* segunda seccion */
+
+@media screen and (max-width: 800px) {
+
+    .descripcion1{
+        background-color: rgb(245, 245, 228);
+        padding: 20px;
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .imagen1{
+        width: 100%;
+    }
+    
+}
+
+/* tercera seccion */
+
+@media screen and (max-width: 800px) {
+    .comentario{
+        background-color:antiquewhite ;
+        padding: 20px;
+        margin: 20px;
+        font-size: 4vw;
+        width: 100%;
+    }
+    .algunos-servicios{
+        width: 100%;
+        padding: 5px;
+    }
+
+}
+
+/* tercera seccion  */
+@media screen and (max-width: 800px) {
+
+    .descripcion2{
+        padding: 20px;
+        margin: 20px;
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .imagendibujo{
+        width: 100%;
+    }
+    
+}
+
+/* cuarta seccion  */
+
+@media screen and (max-width: 800px){
+
+.c1{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/imagen\ 2.jpg) ;
+    color: black;
+    width: 46%;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+    font-size: 5vw;
+}
+
+
+.c2{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/chica\ 1\ .jpg) ; 
+    color: black;
+    width: 46%;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+    font-size: 5vw;
+
+}
+.c3{
+    border: 1px solid rgb(162, 162, 162);
+    background-image:url(../img/imagen\ 3.jpg) ;
+    color: black;
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    text-align:center;
+    margin: 5px;
+    font-size: 5vw;
+
+}
+
+}
+
+@media screen and (max-width:800px){
+    .titulos{
+        padding: 10px;
+        font-size: 9vw;
+        text-align: center;
+        }
+}
+
+
+/* Pagina de nosotros  */
+
+@media screen and (max-width:800px) {
+    .imagen-servicios{
+        border-radius: 7%;
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+
+    .img-portafolio{
+        width: 45%;
+        padding: 10;
+        margin: 5px;
+    }
+    
+}
+

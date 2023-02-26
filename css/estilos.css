@@ -1,0 +1,129 @@
+header {
+  padding: 30px;
+  background-color: rgba(213, 213, 213, 0.548);
+}
+
+nav {
+  position: center;
+  background-color: rgba(213, 213, 213, 0.548);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: relative;
+}
+
+body {
+  font-family: "Courier Prime", monospace;
+  font-family: "Playfair Display", serif;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  position: relative;
+  display: inline;
+  padding: 0%;
+  margin: 0%;
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.titulos {
+  padding: 10px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 10rme;
+}
+
+p {
+  padding: 0px, 80px, 0px, 80px;
+}
+
+.titulo-1 {
+  text-align: center;
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.banner {
+  padding: 90px 0px 90px 0px;
+  background-color: rgba(213, 213, 213, 0.548);
+}
+
+/*Primera seccion */
+.sobre-nosotros {
+  display: flex;
+  padding: 120px, 0px, 90px, 0px;
+  display: flex;
+  margin: 120px;
+}
+
+.descripcion1 {
+  padding: 90px 90px 90px 90px;
+  width: 50%;
+  box-sizing: border-box;
+  min-width: 250px;
+  vertical-align: middle;
+}
+
+.imagen1 {
+  width: 40%;
+}
+
+.seccion-imagenes {
+  position: inherit;
+  width: 20%;
+}
+
+/* secunda seccion*/
+.comentario {
+  padding: 50px, 50px, 50px, 50px;
+  margin: 90px;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.fondo-comentario {
+  background-color: aliceblue;
+}
+
+/*tercera seccion*/
+.descripcion2 {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.algunos-servicios {
+  display: flex;
+}
+
+.imagendibujo {
+  border-radius: 7%;
+  width: 500px;
+  height: 333px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

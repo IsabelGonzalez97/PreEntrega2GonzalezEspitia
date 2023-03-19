@@ -191,15 +191,6 @@ ul li a {
   margin: 5px;
 }
 
-footer {
-  margin: 10px;
-  background-color: black;
-  font-weight: bold;
-  font-size: 2rem;
-  color: azure;
-  padding: 30px;
-}
-
 .flxbox {
   background-color: rgba(213, 213, 213, 0.548);
 }

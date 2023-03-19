@@ -312,5 +312,13 @@ ul li a {
     font-size: 5vw;
   }
 }
+footer {
+  margin: 10px;
+  background-color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: azure;
+  padding: 30px;
+}
 
 /*# sourceMappingURL=estilos.css.map */

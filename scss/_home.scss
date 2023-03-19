@@ -1,0 +1,108 @@
+/*Primera seccion */
+.sobre-nosotros {
+        display: flex;
+        padding: 120px, 0px, 90px, 0px;
+        display: flex;
+        margin: 120px;
+    }
+
+
+.descripcion1 {
+    padding: 90px 90px 90px 90px;
+	width: 50%;
+	box-sizing: border-box;
+	min-width: 250px;
+    vertical-align:middle;
+}
+.imagen1 {
+	width: 40%;
+}
+.seccion-imagenes {
+	position: inherit;
+	width: 20%;
+}
+/* secunda seccion*/
+
+.comentario {
+	padding: 50px, 50px, 50px, 50px;
+	margin: 90px;
+	font-size: 2rem;
+	width: 100%;
+}
+.fondo-comentario {
+	background-color: $background-color_2;
+}
+
+/*tercera seccion*/
+.descripcion2 {
+	padding-right: 70px;
+	padding-left: 70px;
+}
+.algunos-servicios {
+	display: flex;
+}
+.imagendibujo {
+	border-radius: 7%;
+	width: 500px;
+	height: 333px;
+}
+
+.container-flex {
+	border: 1px rgb(179, 179, 179);
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+}
+.caja {
+	border: 1px solid rgb(162, 162, 162);
+	background-color: $background-color_2;
+	color: $color_1;
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	margin: 5px;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.c1 {
+	border: 1px solid rgb(162, 162, 162);
+	background-image: url(../img/imagen\ 2.jpg);
+	color: $color_1;
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	margin: 5px;
+}
+.c2 {
+	border: 1px solid rgb(162, 162, 162);
+	background-image: url(../img/chica\ 1\ .jpg);
+	color: $color_1;
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	margin: 5px;
+}
+.c3 {
+	border: 1px solid rgb(162, 162, 162);
+	background-image: url(../img/imagen\ 3.jpg);
+	color: $color_1;
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	margin: 5px;
+}
+footer {
+	margin: 10px;
+	background-color: $background-color_3;
+	font-weight: bold;
+	font-size: 2rem;
+	color: $color_2;
+	padding: 30px;
+}
+.flxbox {
+	background-color: $background-color_1;
+}

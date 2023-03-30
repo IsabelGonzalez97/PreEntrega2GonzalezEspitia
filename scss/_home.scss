@@ -1,33 +1,85 @@
 /*Primera seccion */
-.sobre-nosotros {
-        display: flex;
-        padding: 120px, 0px, 90px, 0px;
-        display: flex;
-        margin: 120px;
-    }
+.banner {
+    padding: 50px 0px 50px 0px;
+	display: flex;
+	background-color: $background-color_gris-claro;
+	
+}
+.colum1{
+	width: 59%;
+	padding: 80px;
+}
+.titulo-1 {
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+}
+.segundotexto {
+	text-align:left;
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 10px;
 
+}
+
+.colum2{
+	width: 40%;
+}
+
+.imagenheader{
+	width: 90%;
+	border-radius: 4%;
+}
+
+
+/*segunda seccion */
+
+.sobre-nosotros{
+	padding: 30px;
+	display: flex;
+	min-height: 80vh;
+    max-width: 2000px;
+    margin: 0 auto;
+
+}
+
+.colum1-2{
+	padding: 15px;
+	
+
+}
+.colum2-2{
+	padding: 20px;
+}
 
 .descripcion1 {
-    padding: 90px 90px 90px 90px;
-	width: 50%;
 	box-sizing: border-box;
 	min-width: 250px;
     vertical-align:middle;
 }
+
+
+
 .imagen1 {
-	width: 40%;
+	border-radius: 5%;
+	margin-left: -3%;
 }
-.seccion-imagenes {
-	position: inherit;
-	width: 20%;
+.imagen1-1 {
+	border-radius: 5%;
+	margin-left: 3%;
+	margin-top: -10%;	
 }
-/* secunda seccion*/
+
+
+
+/* Tercera seccion*/
 
 .comentario {
-	padding: 50px, 50px, 50px, 50px;
-	margin: 90px;
+	padding: 5%;
+	margin-top: 15%;
 	font-size: 2rem;
 	width: 100%;
+	text-align:center;
 }
 .fondo-comentario {
 	background-color: $background-color_2;
@@ -37,9 +89,12 @@
 .descripcion2 {
 	padding-right: 70px;
 	padding-left: 70px;
+
 }
 .algunos-servicios {
 	display: flex;
+	padding: 90px, 90px, 90px, 90px, ;
+	margin: 90px;
 }
 .imagendibujo {
 	border-radius: 7%;
@@ -50,7 +105,7 @@
 .container-flex {
 	border: 1px rgb(179, 179, 179);
 	display: flex;
-	padding: 20px;
+	padding: 90px;
 	justify-content: center;
 }
 .caja {

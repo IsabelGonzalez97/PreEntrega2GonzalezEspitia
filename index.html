@@ -20,117 +20,147 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
+
   <header>
-    <nav class="navbar navbar-expand-md" style="background-color: rgba(245, 238, 248);">
-      <a class="navbar-brand" href="/index.html">
-        <img src="./img/Logo_sobre_moda_femenina_minimalista_neutral-removebg-preview.png" alt="Logo Isabel" width="60%"
-          class="d-inline-block align-text-top">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./paginas/nosotros.html">Sobre mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./paginas/servicios.html">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./paginas/portafolio.html">Portafolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./paginas/contacto.html">Contactame</a>
-          </li>
 
-
-        </ul>
+    <nav class="navbar bg-body-tertiary" style="background-color: #ffffff; margin:0%;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="./img/Logo_sobre_moda_femenina_minimalista_neutral-removebg-preview.png" alt="Logo Isabel"
+            width="60%" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">María Isabel</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="./paginas/nosotros.html">Sobre mi</a></li>
+              <li class="nav-item"><a class="nav-link" href="./paginas/servicios.html">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link" href="./paginas/portafolio.html">Portafolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="./paginas/contacto.html">Contactame</a>
+            </ul>
+          </div>
+        </div>
       </div>
-
-
     </nav>
+
   </header>
 
-
-  <main class="banner">
-    <div class="colum1">
-      <h1 class="titulo-1">Frontend <br>Isabel González </h1>
+  <main class="row align-items-md-stretch py-5" style="padding-top: 50px; margin-left: 20px;">
+    <div class="colum1 col-md-6">
+      <h1 class="titulo-home">Frontend <br>Isabel González </h1>
       <h2 class="segundotexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h2>
-      <a href="#" class="btn btn-2">Conoce mi portafolio</a>
+      <a href="./paginas/portafolio.html" class="btn btn-2">Conoce mi portafolio</a>
     </div>
-    <div class="colum2">
+    <div class="colum2 col-md-6">
       <img class="imagenheader" src="./img/pexels-daan-stevens-939331.jpg" alt="hombre-con-sombrero-y-computador">
     </div>
   </main>
-  <section>
-    <h2 class="titulos"> Sobre Nosotros </h2>
+
+  <section class="row align-items-md-stretch py-5 fondo">
+    <div class="col-md-6">
+      <img class="imagen1 " src="./img/Computador-con-codigo.jpg" alt="">
+      <img class="imagen1-1 " src="./img/dos-computadores-.jpg" alt="">
+    </div>
+    <div class="col-md-6">
+      <h2 class="titulos"> Sobre Nosotros </h2>
+      <p class="descripcion1 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam.</p>
+      <button type="button" class="btn btn-warning">Conoce todos mis servicios</button>
+    </div>
   </section>
 
-
-  <section class="sobre-nosotros">
-    <div class="colum1-2">
-      <p class="descripcion1 col-sm-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam.</p>
-    </div>
-
-    <div class="colum2-2">
-      <img class="imagen1 col-sm-12 col-md-6" src="./img/Computador-con-codigo.jpg" alt="">
-      <img class="imagen1-1 col-sm-12 col-md-6" src="./img/dos-computadores-.jpg" alt="">
-    </div>
+  <section class="fondo-solo">
+    <!-- fondo de una imagen, no tiene nada más -->
+    <p>h</p>
   </section>
 
   <section class="fondo-comentario row">
     <p class="comentario col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et
-      dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et
     </p>
   </section>
 
-  <section class="algunos-servicios container">
-    <article class="row">
-      <p class="descripcion2 col-6">Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam.Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam. Lorem ipsum dolor sit amet,
-        <br>
-        Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam.Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-      <img class="imagendibujo col-6" src="../img/Imagen de dibujo.jpg" alt="">
-    </article>
-
+  <section class="fondo-solo">
+    <!-- fondo de una imagen, no tiene nada más -->
+    <p>h</p>
   </section>
 
-  <section class="flxbox">
+  <section class="algunos-servicios">
+    <div class=" row align-items-md-stretch">
+      <div class="col-md-6">
+        <h3 class="titulos"> Servicios </h3>
+        <p>Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam.Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam. Lorem ipsum dolor sit amet,
+          Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam.Lorem ipsum dolor sit amet,
 
-    <h3 class="titulos">servicios</h3>
-
-    <article class="container">
-      <div class="row">
-        <div class="col-sm-6 caja c1"> Diseño web </div>
-        <div class="col-sm-6 caja c2"> Fotografía </div>
-        <div class="col-sm-12  caja c3"> Audiovisuales </div>
+        </p>
+        <button type="button" class="btn btn-warning">Conoce todos mis servicios</button>
       </div>
-    </article>
-
+      <div class="col-md-6">
+        <img class="imagendibujo" style="width: 80%" src="../img/hombre-con-sombrero-y-computador.jpeg"
+          alt=" hombre con sombrero y un computador">
+      </div>
+    </div>
   </section>
 
-  </section>
+  <div class="album py-5 bg-body-tertiary">
 
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm " style="width: 18rem;">
+            <img src="./img/diseñoweb.jpg" class="card-img-top" alt="computador con un diseño de un sitio web">
+            <div class="card-body">
+              <h5 class="card-title">Diseño web</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/fotografia.jpg" class="card-img-top" alt="camara">
+            <div class="card-body">
+              <h5 class="card-title">Fotografía</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/concepto-collage-html-css-persona (1).jpg" class="card-img-top"
+              alt="codigos con un computador de fondo">
+            <div class="card-body">
+              <h5 class="card-title">Desarrollo web</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button type="button" class="btn btn-warning">Conoce todos mis servicios</button>
+    </div>
   </div>
-
 </body>
 <footer>
   <h4>Isabel Gonzalez</h4>

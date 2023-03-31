@@ -1,4 +1,4 @@
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1000px) {
 	.titulo-1 {
 		text-align: center;
 		font-size: 9vw;
@@ -25,22 +25,30 @@
 		margin: 5px;
 	}
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
+
+	.sobre-nosotros{
+		padding: 10px;
+	}
 	.descripcion1 {
-		background-color: $background-color_4;
-		padding: 20px;
+		padding: 30px;
 		width: 100%;
-		font-size: 4vw;
+		font-size: 1rem;
+		text-align: justify;
 	}
 	.imagen1 {
-		width: 100%;
+		width: 60%;
+	}
+
+	.imagen1-1 {
+		width: 60%;
+		margin-bottom: 20px;
 	}
 	.comentario {
-		background-color: $background-color_5;
 		padding: 20px;
 		margin: 20px;
-		font-size: 4vw;
-		width: 100%;
+		font-size: 1rem;
+		text-align: justify;
 	}
 	.algunos-servicios {
 		width: 100%;
@@ -50,7 +58,8 @@
 		padding: 20px;
 		margin: 20px;
 		width: 100%;
-		font-size: 4vw;
+		font-size: 1rem;
+		text-align: justify;
 	}
 	.imagendibujo {
 		width: 100%;
@@ -64,7 +73,7 @@
 		line-height: 400px;
 		text-align: center;
 		margin: 5px;
-		font-size: 5vw;
+		font-size: 2rem;
 	}
 	.c2 {
 		border: 1px solid rgb(162, 162, 162);
@@ -75,7 +84,7 @@
 		line-height: 400px;
 		text-align: center;
 		margin: 5px;
-		font-size: 5vw;
+		font-size: 2rem;
 	}
 	.c3 {
 		border: 1px solid rgb(162, 162, 162);
@@ -86,6 +95,6 @@
 		line-height: 400px;
 		text-align: center;
 		margin: 5px;
-		font-size: 5vw;
+		font-size: 2rem;
 	}
 }

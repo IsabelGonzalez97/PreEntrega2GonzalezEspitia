@@ -2,28 +2,48 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
+
 nav {
 	position: relative;
 }
+
 h1 {
-    text-align: center;
+	text-align: center;
 }
+
 h2 {
-    text-align: center;
-    font-size: 10rme;
+	text-align: center;
+	font-size: 10rme;
 }
+
 p {
-    padding: 0px, 80px, 0px, 80px;
+	padding: 0px, 80px, 0px, 80px;
 }
 
 body {
 	font-family: $font-family_1;
 	font-family: $font-family_2;
 	min-height: 100vh;
-    max-width: 2000px;
-    margin: 0 auto;
+	max-width: 2000px;
+	margin: 0 auto;
 	display: inline;
+	contain: content;
+}
+
+.titulos-1 {
+
+	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 .contenedor {
@@ -31,6 +51,7 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
 ul {
 	li {
 		a {
@@ -38,6 +59,7 @@ ul {
 			text-decoration: none;
 			padding: 50px;
 		}
+
 		list-style: none;
 		font-size: 1.3rem;
 		position: relative;
@@ -47,45 +69,46 @@ ul {
 	}
 
 }
+
 .titulos {
 	padding: 10px;
 	font-size: 4rem;
-	text-align: center;
+	text-align: left;
 }
 
 /*BOTONES*/
 
 
-.btn{
-    text-decoration: none;
-    padding: 20px 50px;
-    font-size: 1.5rem;
-    position: relative;
-    margin: 10px;
+.btn {
+	text-decoration: none;
+	padding: 20px 50px;
+	font-size: 1.5rem;
+	position: relative;
+	margin: 10px;
 }
 
-.btn-2{
-    color: $color_1;
+.btn-2 {
+	color: $color_1;
 }
 
-.btn-2::after, .btn-2::before{
-    border: 3px solid $color_botones;
+.btn-2::after,
+.btn-2::before {
+	border: 3px solid $color_botones;
 	border-radius: 4%;
-    content: "";
-    position: absolute;
-    width: calc(100% - 3px);
-    height: calc(100% - 3px);
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: transform 0.3s ease;
+	content: "";
+	position: absolute;
+	width: calc(100% - 3px);
+	height: calc(100% - 3px);
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: transform 0.3s ease;
 }
 
-.btn-2:hover::after{
-    transform: translate(-5px, -5px);
+.btn-2:hover::after {
+	transform: translate(-5px, -5px);
 }
 
-.btn-2:hover::before{
-    transform: translate(5px, 5px);
+.btn-2:hover::before {
+	transform: translate(5px, 5px);
 }
-

@@ -2,96 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+
 </head>
 
-<body>
+<body class="fondocontacto">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
 
-    <header>
-        
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html">Inicio</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/nosotros.html">Acerca de mi</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/servicios.html">Servicios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/portafolio.html">Portafolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/contacto.html">Contacto</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+  <header>
 
-    </header>
-    
+    <nav class="navbar bg-body-tertiary" style="background-color: #ffffff; margin-bottom: 1px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="../img/Logo_sobre_moda_femenina_minimalista_neutral-removebg-preview.png" alt="Logo Isabel"
+            width="60%" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">María Isabel</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="../paginas/nosotros.html">Sobremi</a></li>
+              <li class="nav-item"><a class="nav-link" href="../paginas/servicios.html">Servicios</a></li>
+              <li class="nav-item"><a class="nav-link" href="../paginas/portafolio.html">Portafolio</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="../paginas/contacto.html">Contactame</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <section>
-            <article class="bannercontacto">
-                <h1 class="titulo-1"> Contacto </h1>
-            </article>
-        </section>
-    </main>
-    <form>
-        <LABEL for="nombre">NOMBRE</LABEL>
-        <input id="nombre" type="text" placeholder="Ingrese su Nombre"/>
-        <br><br>
-    
-        <LABEL for="apellido">APELLIDO</LABEL>
-        <input id="apellido" type="text" placeholder="Ingrese su apellido"/>
-        <br><br>
-    
-        <label for="correo">correo Electronico</label>
-        <input id="correo" type="email" placeholder="Ingrese su email "/>
-        <br><br>
-    
-        <textarea name="" id="" cols="10" rowa="10" placeholder="deje su mensaje aqui"
-        >
-        </textarea>
-        <br><br>
-    
-        <input type="submit">
-    
-        <!-- BOX MODELLING -->
-        <div class="desaparecer">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, omnis nesciunt adipisci possimus sint quasi id! Quasi doloribus molestias, dolore modi velit dolorum soluta est. Quibusdam quidem eius cupiditate quasi.</p>
-        </div>
-    
-        <div class="divprincipal">
-            <p>hola borroar Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, omnis nesciunt adipisci possimus sint quasi id! Quasi doloribus molestias, dolore modi velit dolorum soluta est. Quibusdam quidem eius cupiditate quasi.</p>
-        </div>
-    
-        <div class="contenedor">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, omnis nesciunt adipisci possimus sint quasi id! Quasi doloribus molestias, dolore modi velit dolorum soluta est. Quibusdam quidem eius cupiditate quasi.</p>
-        </div>
-    
-    
-    
-    
-    </form>
+  <form class="p-5 mb-4 bg-body-tertiary rounded-3"
+    style="margin-left: 300px; margin-right: 300px; margin-top: 50px; margin-bottom: 50px;">
+
+    <h1 class="titulo-1"> Contacto </h1>
+
+
+    <div class="row py-2">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+      </div>
+    </div>
+    <div class="mb-3 py-2 ">
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu email">
+    </div>
+    <div class="mb-3">
+      <select class="form-select py-2" aria-label="Default select example">
+        <option selected>servicio de interés</option>
+        <option value="1">Fotografía</option>
+        <option value="2">Diseño web</option>
+        <option value="3">Desarrollo web</option>
+      </select>
+      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button type="submit" class="btn btn-warning">Enviar</button>
+    </div>
+  </form>
+
+  <div class="col-md-6">
+  </div>
 
 </body>
-    <footer>
-        <h4>Isabel Gonzalez</h4>
-    </footer>
+<footer>
+  <h4>Isabel Gonzalez</h4>
+</footer>

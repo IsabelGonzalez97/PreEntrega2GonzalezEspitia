@@ -37,6 +37,19 @@ body {
   max-width: 2000px;
   margin: 0 auto;
   display: inline;
+  contain: content;
+}
+
+.titulos-1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .contenedor {
@@ -62,7 +75,7 @@ ul li a {
 .titulos {
   padding: 10px;
   font-size: 4rem;
-  text-align: center;
+  text-align: left;
 }
 
 /*BOTONES*/
@@ -78,7 +91,8 @@ ul li a {
   color: black;
 }
 
-.btn-2::after, .btn-2::before {
+.btn-2::after,
+.btn-2::before {
   border: 3px solid rgb(243, 156, 18);
   border-radius: 4%;
   content: "";
@@ -112,18 +126,12 @@ ul li a {
 }
 
 /*Primera seccion */
-.banner {
-  padding: 50px 0px 50px 0px;
-  display: flex;
-  background-color: rgb(245, 238, 248);
-}
-
 .colum1 {
-  width: 59%;
-  padding: 80px;
+  padding: 30px;
+  width: 40%;
 }
 
-.titulo-1 {
+.titulo-home {
   text-align: left;
   font-size: 80px;
   font-weight: bold;
@@ -147,39 +155,57 @@ ul li a {
 
 /*segunda seccion */
 .sobre-nosotros {
-  padding: 30px;
-  display: flex;
-  min-height: 80vh;
-  max-width: 2000px;
-  margin: 0 auto;
+  padding: 90px;
+}
+
+.fondo {
+  background-image: url(/img/fondo-gris.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .colum1-2 {
+  width: 49%;
   padding: 15px;
+  color: black;
 }
 
 .colum2-2 {
+  width: 50%;
   padding: 20px;
+  color: black;
 }
 
 .descripcion1 {
+  padding: 30px;
   box-sizing: border-box;
   min-width: 250px;
-  vertical-align: middle;
+  text-align: left;
 }
 
 .imagen1 {
+  width: 60%;
   border-radius: 5%;
-  margin-left: -3%;
+  margin-left: 8%;
 }
 
 .imagen1-1 {
+  width: 60%;
   border-radius: 5%;
-  margin-left: 3%;
+  margin-left: 15%;
   margin-top: -10%;
 }
 
 /* Tercera seccion*/
+.fondo-solo {
+  background-image: url(/img/imagen-de-una-chica.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  background-attachment: fixed;
+}
+
 .comentario {
   padding: 5%;
   margin-top: 15%;
@@ -192,7 +218,7 @@ ul li a {
   background-color: aliceblue;
 }
 
-/*tercera seccion*/
+/*cuarta seccion*/
 .descripcion2 {
   padding-right: 70px;
   padding-left: 70px;
@@ -202,6 +228,7 @@ ul li a {
   display: flex;
   padding: 90px, 90px, 90px, 90px;
   margin: 90px;
+  position: sticky;
 }
 
 .imagendibujo {
@@ -278,6 +305,19 @@ ul li a {
   height: 50%;
 }
 
+.imagennosotros {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 8%;
+}
+
+.imagennosotros2 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 15%;
+  margin-top: -40%;
+}
+
 .bannerportafolio {
   background-image: url(../img/pexels-daan-stevens-939331.jpg);
   padding: 90px;
@@ -293,7 +333,7 @@ ul li a {
   width: 25%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   .titulo-1 {
     text-align: center;
     font-size: 9vw;
@@ -320,22 +360,28 @@ ul li a {
     margin: 5px;
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
+  .sobre-nosotros {
+    padding: 10px;
+  }
   .descripcion1 {
-    background-color: rgb(245, 245, 228);
-    padding: 20px;
+    padding: 30px;
     width: 100%;
-    font-size: 4vw;
+    font-size: 1rem;
+    text-align: justify;
   }
   .imagen1 {
-    width: 100%;
+    width: 60%;
+  }
+  .imagen1-1 {
+    width: 60%;
+    margin-bottom: 20px;
   }
   .comentario {
-    background-color: antiquewhite;
     padding: 20px;
     margin: 20px;
-    font-size: 4vw;
-    width: 100%;
+    font-size: 1rem;
+    text-align: justify;
   }
   .algunos-servicios {
     width: 100%;
@@ -345,7 +391,8 @@ ul li a {
     padding: 20px;
     margin: 20px;
     width: 100%;
-    font-size: 4vw;
+    font-size: 1rem;
+    text-align: justify;
   }
   .imagendibujo {
     width: 100%;
@@ -359,7 +406,7 @@ ul li a {
     line-height: 400px;
     text-align: center;
     margin: 5px;
-    font-size: 5vw;
+    font-size: 2rem;
   }
   .c2 {
     border: 1px solid rgb(162, 162, 162);
@@ -370,7 +417,7 @@ ul li a {
     line-height: 400px;
     text-align: center;
     margin: 5px;
-    font-size: 5vw;
+    font-size: 2rem;
   }
   .c3 {
     border: 1px solid rgb(162, 162, 162);
@@ -381,7 +428,7 @@ ul li a {
     line-height: 400px;
     text-align: center;
     margin: 5px;
-    font-size: 5vw;
+    font-size: 2rem;
   }
 }
 footer {
@@ -391,6 +438,10 @@ footer {
   font-size: 2rem;
   color: azure;
   padding: 30px;
+}
+
+.fondocontacto {
+  background-image: url(/img/fondo\ rosa.jpg);
 }
 
 /*# sourceMappingURL=estilos.css.map */

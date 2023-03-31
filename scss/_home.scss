@@ -1,15 +1,13 @@
 /*Primera seccion */
-.banner {
-    padding: 50px 0px 50px 0px;
-	display: flex;
-	background-color: $background-color_gris-claro;
-	
-}
+
+
+
 .colum1{
-	width: 59%;
-	padding: 80px;
+	padding: 30px;
+	width: 40%;
 }
-.titulo-1 {
+
+.titulo-home {
     text-align: left;
     font-size: 80px;
     font-weight: bold;
@@ -29,50 +27,67 @@
 .imagenheader{
 	width: 90%;
 	border-radius: 4%;
+	
 }
 
 
 /*segunda seccion */
 
 .sobre-nosotros{
-	padding: 30px;
-	display: flex;
-	min-height: 80vh;
-    max-width: 2000px;
-    margin: 0 auto;
+	padding: 90px;
+}
 
+.fondo{
+	background-image: url(/img/fondo-gris.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .colum1-2{
+	width: 49%;
 	padding: 15px;
-	
+	color: $color_1;
 
 }
 .colum2-2{
+	width: 50%;
 	padding: 20px;
+	color: $color_1;
 }
 
 .descripcion1 {
+	padding: 30px;
 	box-sizing: border-box;
 	min-width: 250px;
-    vertical-align:middle;
+	text-align:left;
 }
-
-
 
 .imagen1 {
+	width: 60%;
 	border-radius: 5%;
-	margin-left: -3%;
+	margin-left: 8%;
 }
 .imagen1-1 {
+
+	width: 60%;
 	border-radius: 5%;
-	margin-left: 3%;
-	margin-top: -10%;	
+	margin-left: 15%;
+	margin-top: -10%;
+
+	
 }
 
-
-
 /* Tercera seccion*/
+
+.fondo-solo{
+	background-image: url(/img/imagen-de-una-chica.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px;
+	background-attachment: fixed;
+
+}
 
 .comentario {
 	padding: 5%;
@@ -83,9 +98,11 @@
 }
 .fondo-comentario {
 	background-color: $background-color_2;
+
 }
 
-/*tercera seccion*/
+/*cuarta seccion*/
+
 .descripcion2 {
 	padding-right: 70px;
 	padding-left: 70px;
@@ -95,6 +112,7 @@
 	display: flex;
 	padding: 90px, 90px, 90px, 90px, ;
 	margin: 90px;
+	position: sticky;
 }
 .imagendibujo {
 	border-radius: 7%;

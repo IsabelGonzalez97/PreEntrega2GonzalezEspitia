@@ -4,6 +4,8 @@
 	border: 0;
 	box-sizing: border-box;
 	overflow-x: hidden;
+	max-width: 2000px;
+
 }
 
 nav {
@@ -26,11 +28,6 @@ p {
 body {
 	font-family: $font-family_1;
 	font-family: $font-family_2;
-	min-height: 100vh;
-	max-width: 2000px;
-	margin: 0 auto;
-	display: inline;
-	contain: content;
 }
 
 .titulo-1 {
@@ -75,6 +72,12 @@ ul {
 	padding: 10px;
 	font-size: 4rem;
 	text-align: left;
+}
+
+.tituloscenter {
+	padding: 10px;
+	font-size: 4rem;
+	text-align: center;
 }
 
 /*BOTONES*/

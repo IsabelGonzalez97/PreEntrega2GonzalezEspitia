@@ -13,6 +13,7 @@ nav {
   border: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  max-width: 2000px;
 }
 
 nav {
@@ -35,11 +36,6 @@ p {
 body {
   font-family: "Courier Prime", monospace;
   font-family: "Playfair Display", serif;
-  min-height: 100vh;
-  max-width: 2000px;
-  margin: 0 auto;
-  display: inline;
-  contain: content;
 }
 
 .titulo-1 {
@@ -78,6 +74,12 @@ ul li a {
   padding: 10px;
   font-size: 4rem;
   text-align: left;
+}
+
+.tituloscenter {
+  padding: 10px;
+  font-size: 4rem;
+  text-align: center;
 }
 
 /*BOTONES*/
@@ -135,7 +137,7 @@ ul li a {
 
 .titulo-home {
   text-align: left;
-  font-size: 5rem;
+  font-size: 80px;
   font-weight: bold;
 }
 
@@ -210,7 +212,6 @@ ul li a {
 
 .comentario {
   padding: 5%;
-  margin-top: 15%;
   font-size: 2rem;
   width: 100%;
   text-align: center;
@@ -436,6 +437,12 @@ ul li a {
     text-align: center;
     margin: 5px;
     font-size: 2rem;
+  }
+  .anchocontacto {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 footer {

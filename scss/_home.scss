@@ -9,7 +9,7 @@
 
 .titulo-home {
     text-align: left;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: bold;
 }
 .segundotexto {
@@ -94,7 +94,7 @@
 	margin-top: 15%;
 	font-size: 2rem;
 	width: 100%;
-	text-align:center;
+	text-align: center;
 }
 .fondo-comentario {
 	background-color: $background-color_2;
@@ -102,7 +102,9 @@
 }
 
 /*cuarta seccion*/
-
+.colum4{
+	padding: 30px;
+}
 .descripcion2 {
 	padding-right: 70px;
 	padding-left: 70px;

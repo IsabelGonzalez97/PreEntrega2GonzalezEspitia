@@ -122,11 +122,30 @@ ul li a {
   padding: 90px;
 }
 
+.imagen-servicios {
+  border-radius: 7%;
+  width: 30%;
+  height: 30%;
+}
+
 .primeraseccion {
   margin: 0%;
   padding: 0%;
   width: 100%;
   display: contents;
+}
+
+.imagenservicios1 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 8%;
+}
+
+.imagenservicios2 {
+  width: 60%;
+  border-radius: 5%;
+  margin-left: 15%;
+  margin-top: -20%;
 }
 
 /*Primera seccion */
@@ -304,12 +323,6 @@ ul li a {
 .bannernosotros {
   background-image: url(../img/pexels-daan-stevens-939331.jpg);
   padding: 90px;
-}
-
-.imagen-servicios {
-  border-radius: 7%;
-  width: 50%;
-  height: 50%;
 }
 
 .imagennosotros {
